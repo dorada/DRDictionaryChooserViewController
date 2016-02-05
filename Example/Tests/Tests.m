@@ -6,6 +6,8 @@
 //  Copyright (c) 2016 Daniel Broad. All rights reserved.
 //
 
+#import "DRDictionaryChooserViewController.h"
+
 @import XCTest;
 
 @interface Tests : XCTestCase
@@ -28,7 +30,7 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    // noop
 }
 
 @end
