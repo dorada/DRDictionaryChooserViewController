@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
 
   s.homepage         = "https://github.com/dorada/DRDictionaryChooserViewController"
-  s.screenshots     = "https://github.com/dorada/DRDictionaryChooserViewController/tree/master/Example/screenshot.jpg"
+  s.screenshots     = "https://raw.githubusercontent.com/dorada/DRDictionaryChooserViewController/master/Example/screenshot.png"
   s.license          = 'MIT'
   s.author           = { "Daniel Broad" => "daniel@dorada.org" }
   s.source           = { :git => "https://github.com/dorada/DRDictionaryChooserViewController.git", :tag => s.version.to_s }
