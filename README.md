@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/DRDictionaryChooserViewController.svg?style=flat)](http://cocoapods.org/pods/DRDictionaryChooserViewController)
 [![Platform](https://img.shields.io/cocoapods/p/DRDictionaryChooserViewController.svg?style=flat)](http://cocoapods.org/pods/DRDictionaryChooserViewController)
 
+![Alt text](/Example/screenshot.png?raw=true "Screenshot")
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
