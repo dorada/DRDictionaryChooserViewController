@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DRDictionaryChooserViewController_Example', :exclusive => true do
+  pod 'DRDictionaryChooserViewController', :path => '../'
+end
+
+target 'DRDictionaryChooserViewController_Tests', :exclusive => true do
+  pod 'DRDictionaryChooserViewController', :path => '../'
+
+  
+end
