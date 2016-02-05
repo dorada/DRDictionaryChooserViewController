@@ -1,0 +1,6 @@
+framework module DRDictionaryChooserViewController {
+  umbrella header "DRDictionaryChooserViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

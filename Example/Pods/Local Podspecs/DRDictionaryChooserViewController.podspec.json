@@ -1,0 +1,25 @@
+{
+  "name": "DRDictionaryChooserViewController",
+  "version": "0.1.0",
+  "summary": "A class for letting the user choose from a list",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DRDictionaryChooserViewController",
+  "license": "MIT",
+  "authors": {
+    "Daniel Broad": "daniel@dorada.org"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DRDictionaryChooserViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "DRDictionaryChooserViewController": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

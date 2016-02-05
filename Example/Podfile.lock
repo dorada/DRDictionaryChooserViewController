@@ -1,0 +1,14 @@
+PODS:
+  - DRDictionaryChooserViewController (0.1.0)
+
+DEPENDENCIES:
+  - DRDictionaryChooserViewController (from `../`)
+
+EXTERNAL SOURCES:
+  DRDictionaryChooserViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DRDictionaryChooserViewController: 132313600b14fa35a8172035e278e04ee4db714d
+
+COCOAPODS: 0.39.0

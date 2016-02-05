@@ -1,6 +1,6 @@
 # DRDictionaryChooserViewController
 
-[![CI Status](http://img.shields.io/travis/Daniel Broad/DRDictionaryChooserViewController.svg?style=flat)](https://travis-ci.org/Daniel Broad/DRDictionaryChooserViewController)
+[![CI Status](http://img.shields.io/travis/Daniel Broad/DRDictionaryChooserViewController.svg?style=flat)](https://travis-ci.org/dorada/DRDictionaryChooserViewController)
 [![Version](https://img.shields.io/cocoapods/v/DRDictionaryChooserViewController.svg?style=flat)](http://cocoapods.org/pods/DRDictionaryChooserViewController)
 [![License](https://img.shields.io/cocoapods/l/DRDictionaryChooserViewController.svg?style=flat)](http://cocoapods.org/pods/DRDictionaryChooserViewController)
 [![Platform](https://img.shields.io/cocoapods/p/DRDictionaryChooserViewController.svg?style=flat)](http://cocoapods.org/pods/DRDictionaryChooserViewController)

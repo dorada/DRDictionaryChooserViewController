@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0558AB7761728FB816C4338537DB166B /* Pods-DRDictionaryChooserViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D486AC992266FECC9BDC9941351C35 /* Pods-DRDictionaryChooserViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B86702D5FC4321475BCC829C71710D2 /* Pods-DRDictionaryChooserViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA28FE56001756A8C2CE4EBE3B92EC5 /* Pods-DRDictionaryChooserViewController_Tests-dummy.m */; };
+		3D025C07F82BD978EA897A142ADA1DC2 /* Pods-DRDictionaryChooserViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE4B6F29DD2104C7A7E956E4504F46 /* Pods-DRDictionaryChooserViewController_Example-dummy.m */; };
+		3E7171B8EF061480BA59C2A853F2A713 /* DRDictionaryChooserViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAF86DF589C8DC4BD85B3CAF48A53B2 /* DRDictionaryChooserViewController-dummy.m */; };
+		435817B7FEC5E9A2A2CCFC7B7CF65435 /* DRDictionaryChooserViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8EE75FD16A043B11E2F0100C65261712 /* DRDictionaryChooserViewController.bundle */; };
+		6102AB95E123579B9DB65DAA936D631A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		749F5468FD491481AA28124B18EAA3B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		77CAD9C23DDD54F389E5B7922CD751BE /* DRDictionaryChooserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7284DE9C7E85370D184FAADB5D1BC139 /* DRDictionaryChooserViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E3D2A89C22EBDEB2EBC2D8BB13877F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A3860E0C1ED128804698D68B070E8A75 /* DRDictionaryChooserViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1575C5CD78173845E079409DFFFC0D3F /* DRDictionaryChooserViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2102B5CD90F42C3294C4C54AD8ED6C5 /* Pods-DRDictionaryChooserViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E48204760223BCA27FF91BC413ED8849 /* Pods-DRDictionaryChooserViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7021F9E2176CB785775A1B72C831E91 /* DRDictionaryChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FEFCEF25B299426FBBDFCA21DBA61 /* DRDictionaryChooserViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05DF642CF8382D5945F9AE38ABB301E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6752BE8453A4300B572674CEE33C410;
+			remoteInfo = DRDictionaryChooserViewController;
+		};
+		4112018A01388DADB184299BB4185F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F47129C2E665E85997F39F6061193F;
+			remoteInfo = "DRDictionaryChooserViewController-DRDictionaryChooserViewController";
+		};
+		90D63CAA5F780D8A4C16A2B18DC91007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6752BE8453A4300B572674CEE33C410;
+			remoteInfo = DRDictionaryChooserViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1575C5CD78173845E079409DFFFC0D3F /* DRDictionaryChooserViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRDictionaryChooserViewController-umbrella.h"; sourceTree = "<group>"; };
+		17CCDED45F9F9C963C48E81EE735DA42 /* DRDictionaryChooserViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRDictionaryChooserViewController.xcconfig; sourceTree = "<group>"; };
+		20E21F975B7EB581855FE08A055BA254 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272F309E9787314EA16CB096EEF0E2C7 /* Pods_DRDictionaryChooserViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRDictionaryChooserViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4EB5214C83F05DD54FD87ADA9740A5 /* Pods-DRDictionaryChooserViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRDictionaryChooserViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F6A868B53F92F84B053C5D604A8E72C /* Pods-DRDictionaryChooserViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRDictionaryChooserViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3532E5311FFC4CEB197D93F465EFCC4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		44C92AAB9739BE7330642A5246B47E37 /* Pods-DRDictionaryChooserViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRDictionaryChooserViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4D92E4857F4CB63D9A8FE164D5018C4F /* Pods-DRDictionaryChooserViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DRDictionaryChooserViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DCE4B6F29DD2104C7A7E956E4504F46 /* Pods-DRDictionaryChooserViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRDictionaryChooserViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		6E6FEFCEF25B299426FBBDFCA21DBA61 /* DRDictionaryChooserViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRDictionaryChooserViewController.m; sourceTree = "<group>"; };
+		7284DE9C7E85370D184FAADB5D1BC139 /* DRDictionaryChooserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRDictionaryChooserViewController.h; sourceTree = "<group>"; };
+		77D8C63267FC45A7057BB8EEC999D55A /* Pods-DRDictionaryChooserViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRDictionaryChooserViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		85D486AC992266FECC9BDC9941351C35 /* Pods-DRDictionaryChooserViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DRDictionaryChooserViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		86183F6E470FF1A178D87A1654A85066 /* Pods-DRDictionaryChooserViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRDictionaryChooserViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		875B0279569A87589C3F86CBBE2ADC79 /* Pods_DRDictionaryChooserViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRDictionaryChooserViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		882C02CDA039651F5194FB3F50E58735 /* Pods-DRDictionaryChooserViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DRDictionaryChooserViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		8A0AB1D769E8F244DC81B84C662F8F0B /* Pods-DRDictionaryChooserViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DRDictionaryChooserViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8DA28FE56001756A8C2CE4EBE3B92EC5 /* Pods-DRDictionaryChooserViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRDictionaryChooserViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		8EE75FD16A043B11E2F0100C65261712 /* DRDictionaryChooserViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRDictionaryChooserViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		962DF7CA451CF8EE14ED48B5D505368F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A011CEA344F697485BA81141CB4F936E /* DRDictionaryChooserViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DRDictionaryChooserViewController.modulemap; sourceTree = "<group>"; };
+		AF94FC25915B692D210CFB66D6C14FE3 /* Pods-DRDictionaryChooserViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DRDictionaryChooserViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		B261BC1B16E415EE6FFAF9F90818AA43 /* Pods-DRDictionaryChooserViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DRDictionaryChooserViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2BB6544F19AD3BC331086E789E338B0 /* DRDictionaryChooserViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRDictionaryChooserViewController-prefix.pch"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFB4FA6278E32F4C4837B9FC07CB651A /* Pods-DRDictionaryChooserViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DRDictionaryChooserViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		C88CF67ABBA60FDFDDE5ACB44078F959 /* Pods-DRDictionaryChooserViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DRDictionaryChooserViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D37B4F14DD8C4A7FE4D7A18C891478D7 /* DRDictionaryChooserViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRDictionaryChooserViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36C5AA8E6585A859C95815971EFDE14 /* Pods-DRDictionaryChooserViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DRDictionaryChooserViewController_Example.modulemap"; sourceTree = "<group>"; };
+		E48204760223BCA27FF91BC413ED8849 /* Pods-DRDictionaryChooserViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DRDictionaryChooserViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		E514E1ACB8D7628D06448832B49429C7 /* Pods-DRDictionaryChooserViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRDictionaryChooserViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEAF86DF589C8DC4BD85B3CAF48A53B2 /* DRDictionaryChooserViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRDictionaryChooserViewController-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B370527FF42007B74949E434C842D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749F5468FD491481AA28124B18EAA3B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EBA6DF437ED12A745B38A192BE84F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EC2538B4062B48C87E12818EA6EEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6102AB95E123579B9DB65DAA936D631A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A756A60200E4AA8F598B55ADCBFA189C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E3D2A89C22EBDEB2EBC2D8BB13877F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212961C63E87D3A15EA2BC07E10ED555 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A011CEA344F697485BA81141CB4F936E /* DRDictionaryChooserViewController.modulemap */,
+				17CCDED45F9F9C963C48E81EE735DA42 /* DRDictionaryChooserViewController.xcconfig */,
+				EEAF86DF589C8DC4BD85B3CAF48A53B2 /* DRDictionaryChooserViewController-dummy.m */,
+				B2BB6544F19AD3BC331086E789E338B0 /* DRDictionaryChooserViewController-prefix.pch */,
+				1575C5CD78173845E079409DFFFC0D3F /* DRDictionaryChooserViewController-umbrella.h */,
+				3532E5311FFC4CEB197D93F465EFCC4B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DRDictionaryChooserViewController";
+			sourceTree = "<group>";
+		};
+		337704DBFB8DE484C5A6ADA4A59D3EAC /* DRDictionaryChooserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CF6F5797483B3FDE6548232DBE4A528 /* Pod */,
+				212961C63E87D3A15EA2BC07E10ED555 /* Support Files */,
+			);
+			name = DRDictionaryChooserViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		33DCFE065E7C7974F5DE4D072FB7B948 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7284DE9C7E85370D184FAADB5D1BC139 /* DRDictionaryChooserViewController.h */,
+				6E6FEFCEF25B299426FBBDFCA21DBA61 /* DRDictionaryChooserViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5461D07848140E6A97E19151BB602D2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EE75FD16A043B11E2F0100C65261712 /* DRDictionaryChooserViewController.bundle */,
+				D37B4F14DD8C4A7FE4D7A18C891478D7 /* DRDictionaryChooserViewController.framework */,
+				875B0279569A87589C3F86CBBE2ADC79 /* Pods_DRDictionaryChooserViewController_Example.framework */,
+				272F309E9787314EA16CB096EEF0E2C7 /* Pods_DRDictionaryChooserViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6443C662AA19E66F795B166C018A3EEB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				337704DBFB8DE484C5A6ADA4A59D3EAC /* DRDictionaryChooserViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		67FE5D3D0721530E62C162D1E28276E7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F881EAE360B68140D8885ACC7625DE86 /* Pods-DRDictionaryChooserViewController_Example */,
+				C49B46F5F72A5D980E5CE416E9D3981C /* Pods-DRDictionaryChooserViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6CF6F5797483B3FDE6548232DBE4A528 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				33DCFE065E7C7974F5DE4D072FB7B948 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				6443C662AA19E66F795B166C018A3EEB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5461D07848140E6A97E19151BB602D2B /* Products */,
+				67FE5D3D0721530E62C162D1E28276E7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C49B46F5F72A5D980E5CE416E9D3981C /* Pods-DRDictionaryChooserViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				962DF7CA451CF8EE14ED48B5D505368F /* Info.plist */,
+				BFB4FA6278E32F4C4837B9FC07CB651A /* Pods-DRDictionaryChooserViewController_Tests.modulemap */,
+				4D92E4857F4CB63D9A8FE164D5018C4F /* Pods-DRDictionaryChooserViewController_Tests-acknowledgements.markdown */,
+				E514E1ACB8D7628D06448832B49429C7 /* Pods-DRDictionaryChooserViewController_Tests-acknowledgements.plist */,
+				8DA28FE56001756A8C2CE4EBE3B92EC5 /* Pods-DRDictionaryChooserViewController_Tests-dummy.m */,
+				8A0AB1D769E8F244DC81B84C662F8F0B /* Pods-DRDictionaryChooserViewController_Tests-frameworks.sh */,
+				882C02CDA039651F5194FB3F50E58735 /* Pods-DRDictionaryChooserViewController_Tests-resources.sh */,
+				85D486AC992266FECC9BDC9941351C35 /* Pods-DRDictionaryChooserViewController_Tests-umbrella.h */,
+				2E4EB5214C83F05DD54FD87ADA9740A5 /* Pods-DRDictionaryChooserViewController_Tests.debug.xcconfig */,
+				2F6A868B53F92F84B053C5D604A8E72C /* Pods-DRDictionaryChooserViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-DRDictionaryChooserViewController_Tests";
+			path = "Target Support Files/Pods-DRDictionaryChooserViewController_Tests";
+			sourceTree = "<group>";
+		};
+		F881EAE360B68140D8885ACC7625DE86 /* Pods-DRDictionaryChooserViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				20E21F975B7EB581855FE08A055BA254 /* Info.plist */,
+				E36C5AA8E6585A859C95815971EFDE14 /* Pods-DRDictionaryChooserViewController_Example.modulemap */,
+				B261BC1B16E415EE6FFAF9F90818AA43 /* Pods-DRDictionaryChooserViewController_Example-acknowledgements.markdown */,
+				77D8C63267FC45A7057BB8EEC999D55A /* Pods-DRDictionaryChooserViewController_Example-acknowledgements.plist */,
+				4DCE4B6F29DD2104C7A7E956E4504F46 /* Pods-DRDictionaryChooserViewController_Example-dummy.m */,
+				C88CF67ABBA60FDFDDE5ACB44078F959 /* Pods-DRDictionaryChooserViewController_Example-frameworks.sh */,
+				AF94FC25915B692D210CFB66D6C14FE3 /* Pods-DRDictionaryChooserViewController_Example-resources.sh */,
+				E48204760223BCA27FF91BC413ED8849 /* Pods-DRDictionaryChooserViewController_Example-umbrella.h */,
+				86183F6E470FF1A178D87A1654A85066 /* Pods-DRDictionaryChooserViewController_Example.debug.xcconfig */,
+				44C92AAB9739BE7330642A5246B47E37 /* Pods-DRDictionaryChooserViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-DRDictionaryChooserViewController_Example";
+			path = "Target Support Files/Pods-DRDictionaryChooserViewController_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		62BDAA6515E23C6EF40EC1037E745AE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0558AB7761728FB816C4338537DB166B /* Pods-DRDictionaryChooserViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E60A2399D40276F97FC48F6DAC8FF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2102B5CD90F42C3294C4C54AD8ED6C5 /* Pods-DRDictionaryChooserViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94EFECC6F43A0736776F5066DA35E2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3860E0C1ED128804698D68B070E8A75 /* DRDictionaryChooserViewController-umbrella.h in Headers */,
+				77CAD9C23DDD54F389E5B7922CD751BE /* DRDictionaryChooserViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		57F47129C2E665E85997F39F6061193F /* DRDictionaryChooserViewController-DRDictionaryChooserViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA061220E610DD2C8F2A6569C0902E70 /* Build configuration list for PBXNativeTarget "DRDictionaryChooserViewController-DRDictionaryChooserViewController" */;
+			buildPhases = (
+				34248352A3ADECD382DB8B5C968A1326 /* Sources */,
+				50EBA6DF437ED12A745B38A192BE84F1 /* Frameworks */,
+				F61FB8DED41040F6D009E3E3D09EA59B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DRDictionaryChooserViewController-DRDictionaryChooserViewController";
+			productName = "DRDictionaryChooserViewController-DRDictionaryChooserViewController";
+			productReference = 8EE75FD16A043B11E2F0100C65261712 /* DRDictionaryChooserViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8834B1675469ADED02C9CA77F796B7CC /* Pods-DRDictionaryChooserViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20940E777A308E7C2D7A0C713F2EA51E /* Build configuration list for PBXNativeTarget "Pods-DRDictionaryChooserViewController_Tests" */;
+			buildPhases = (
+				07F3AB62D4E16C092705ABC5DFCCF0D8 /* Sources */,
+				A756A60200E4AA8F598B55ADCBFA189C /* Frameworks */,
+				62BDAA6515E23C6EF40EC1037E745AE7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878D2452E0E99E4BB734D9DC77499994 /* PBXTargetDependency */,
+			);
+			name = "Pods-DRDictionaryChooserViewController_Tests";
+			productName = "Pods-DRDictionaryChooserViewController_Tests";
+			productReference = 272F309E9787314EA16CB096EEF0E2C7 /* Pods_DRDictionaryChooserViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6752BE8453A4300B572674CEE33C410 /* DRDictionaryChooserViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643173FE6CDFBC1980D7C8F2BC498335 /* Build configuration list for PBXNativeTarget "DRDictionaryChooserViewController" */;
+			buildPhases = (
+				F08ABB2825E37156C7ECE8D12ECA1367 /* Sources */,
+				2B370527FF42007B74949E434C842D17 /* Frameworks */,
+				51F635B5688599988CB640F285370B8D /* Resources */,
+				F94EFECC6F43A0736776F5066DA35E2F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8E59AB1348AC544B2A237210A5D5489 /* PBXTargetDependency */,
+			);
+			name = DRDictionaryChooserViewController;
+			productName = DRDictionaryChooserViewController;
+			productReference = D37B4F14DD8C4A7FE4D7A18C891478D7 /* DRDictionaryChooserViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFB01DC969700483A20C2DF76570646D /* Pods-DRDictionaryChooserViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92526E34651FB8D672952CC6DFE20125 /* Build configuration list for PBXNativeTarget "Pods-DRDictionaryChooserViewController_Example" */;
+			buildPhases = (
+				1B4B23B9F3BE7EDDB005ADA40C76815A /* Sources */,
+				88EC2538B4062B48C87E12818EA6EEDF /* Frameworks */,
+				F2E60A2399D40276F97FC48F6DAC8FF8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEB21BF99F6361EF9B7E038507BADDB8 /* PBXTargetDependency */,
+			);
+			name = "Pods-DRDictionaryChooserViewController_Example";
+			productName = "Pods-DRDictionaryChooserViewController_Example";
+			productReference = 875B0279569A87589C3F86CBBE2ADC79 /* Pods_DRDictionaryChooserViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5461D07848140E6A97E19151BB602D2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6752BE8453A4300B572674CEE33C410 /* DRDictionaryChooserViewController */,
+				57F47129C2E665E85997F39F6061193F /* DRDictionaryChooserViewController-DRDictionaryChooserViewController */,
+				BFB01DC969700483A20C2DF76570646D /* Pods-DRDictionaryChooserViewController_Example */,
+				8834B1675469ADED02C9CA77F796B7CC /* Pods-DRDictionaryChooserViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51F635B5688599988CB640F285370B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435817B7FEC5E9A2A2CCFC7B7CF65435 /* DRDictionaryChooserViewController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61FB8DED41040F6D009E3E3D09EA59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F3AB62D4E16C092705ABC5DFCCF0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B86702D5FC4321475BCC829C71710D2 /* Pods-DRDictionaryChooserViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4B23B9F3BE7EDDB005ADA40C76815A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D025C07F82BD978EA897A142ADA1DC2 /* Pods-DRDictionaryChooserViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34248352A3ADECD382DB8B5C968A1326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08ABB2825E37156C7ECE8D12ECA1367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7171B8EF061480BA59C2A853F2A713 /* DRDictionaryChooserViewController-dummy.m in Sources */,
+				B7021F9E2176CB785775A1B72C831E91 /* DRDictionaryChooserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		878D2452E0E99E4BB734D9DC77499994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRDictionaryChooserViewController;
+			target = A6752BE8453A4300B572674CEE33C410 /* DRDictionaryChooserViewController */;
+			targetProxy = 05DF642CF8382D5945F9AE38ABB301E3 /* PBXContainerItemProxy */;
+		};
+		F8E59AB1348AC544B2A237210A5D5489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DRDictionaryChooserViewController-DRDictionaryChooserViewController";
+			target = 57F47129C2E665E85997F39F6061193F /* DRDictionaryChooserViewController-DRDictionaryChooserViewController */;
+			targetProxy = 4112018A01388DADB184299BB4185F40 /* PBXContainerItemProxy */;
+		};
+		FEB21BF99F6361EF9B7E038507BADDB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRDictionaryChooserViewController;
+			target = A6752BE8453A4300B572674CEE33C410 /* DRDictionaryChooserViewController */;
+			targetProxy = 90D63CAA5F780D8A4C16A2B18DC91007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0803E5079189CCBC3F651B0D147FA250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C92AAB9739BE7330642A5246B47E37 /* Pods-DRDictionaryChooserViewController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DRDictionaryChooserViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DRDictionaryChooserViewController_Example/Pods-DRDictionaryChooserViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DRDictionaryChooserViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1ED7E02D681BD733E178F524A4B51BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6A868B53F92F84B053C5D604A8E72C /* Pods-DRDictionaryChooserViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DRDictionaryChooserViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DRDictionaryChooserViewController_Tests/Pods-DRDictionaryChooserViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DRDictionaryChooserViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35302AB2A66D57360A84D7538081CD9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CCDED45F9F9C963C48E81EE735DA42 /* DRDictionaryChooserViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DRDictionaryChooserViewController/DRDictionaryChooserViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRDictionaryChooserViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRDictionaryChooserViewController/DRDictionaryChooserViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DRDictionaryChooserViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		433897B440A216FC3980C2C91C7AF424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86183F6E470FF1A178D87A1654A85066 /* Pods-DRDictionaryChooserViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DRDictionaryChooserViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DRDictionaryChooserViewController_Example/Pods-DRDictionaryChooserViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DRDictionaryChooserViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59C0F91C06FD9E68F9B07CDBF1F0A340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E4EB5214C83F05DD54FD87ADA9740A5 /* Pods-DRDictionaryChooserViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DRDictionaryChooserViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DRDictionaryChooserViewController_Tests/Pods-DRDictionaryChooserViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DRDictionaryChooserViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		665FD067C2DE760B2D5F2ED7103BBFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CCDED45F9F9C963C48E81EE735DA42 /* DRDictionaryChooserViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DRDictionaryChooserViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8922AD9DDE0717F385D9EB681C39D672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CCDED45F9F9C963C48E81EE735DA42 /* DRDictionaryChooserViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DRDictionaryChooserViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		ED1F4A9624DF6D172B925152DBE9704C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CCDED45F9F9C963C48E81EE735DA42 /* DRDictionaryChooserViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DRDictionaryChooserViewController/DRDictionaryChooserViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRDictionaryChooserViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRDictionaryChooserViewController/DRDictionaryChooserViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DRDictionaryChooserViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20940E777A308E7C2D7A0C713F2EA51E /* Build configuration list for PBXNativeTarget "Pods-DRDictionaryChooserViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C0F91C06FD9E68F9B07CDBF1F0A340 /* Debug */,
+				1ED7E02D681BD733E178F524A4B51BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643173FE6CDFBC1980D7C8F2BC498335 /* Build configuration list for PBXNativeTarget "DRDictionaryChooserViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35302AB2A66D57360A84D7538081CD9F /* Debug */,
+				ED1F4A9624DF6D172B925152DBE9704C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92526E34651FB8D672952CC6DFE20125 /* Build configuration list for PBXNativeTarget "Pods-DRDictionaryChooserViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433897B440A216FC3980C2C91C7AF424 /* Debug */,
+				0803E5079189CCBC3F651B0D147FA250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA061220E610DD2C8F2A6569C0902E70 /* Build configuration list for PBXNativeTarget "DRDictionaryChooserViewController-DRDictionaryChooserViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665FD067C2DE760B2D5F2ED7103BBFDA /* Debug */,
+				8922AD9DDE0717F385D9EB681C39D672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

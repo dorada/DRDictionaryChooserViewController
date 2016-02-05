@@ -10,4 +10,6 @@
 
 @interface DRViewController : UIViewController
 
+-(IBAction)goChooser:(id)sender;
+
 @end
